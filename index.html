@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+  <title>Feed Me Chutney | Farm Fresh · Handcrafted · Homemade</title>
+
+  <!-- SEO - Enhanced for Google / Bing -->
+  <meta name="description" content="Feed Me Chutney is a family-made, farm-fresh Afghan-inspired chutney brand from Virginia. Handcrafted, preservative-free, and made to order. Try our new Strawberry Jalapeño Chutney!" />
+  <meta name="keywords" content="chutney, handmade chutney, Afghan chutney, strawberry jalapeño chutney, green chutney, pineapple jalapeño, artisan condiment, Virginia chutney, farm fresh, non-gmo, vegan chutney, gluten free, Feed Me Chutney, small batch">
+  <meta name="author" content="Feed Me Chutney" />
+  <link rel="canonical" href="https://www.feedmechutney.com" />
+  
+  <!-- Favicon (emoji fallback + standard ico) -->
+  <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+  <link rel="shortcut icon" href="https://www.feedmechutney.com/favicon.ico" />
+
+  <!-- Open Graph / Facebook / LinkedIn / WhatsApp / iMessage -->
+  <meta property="og:title" content="Feed Me Chutney | Farm Fresh Handcrafted Chutney" />
+  <meta property="og:description" content="Farm-fresh, handcrafted chutney made to order in Virginia. No preservatives. Family-owned. NEW: Strawberry Jalapeño Chutney!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.feedmechutney.com" />
+  <meta property="og:image" content="https://i0.wp.com/www.feedmechutney.com/wp-content/uploads/2023/02/Jar-CHUTNEY-2tagged-copy.jpg?resize=1200%2C630&ssl=1" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Feed Me Chutney artisan glass jars with fresh green chutney and ingredients" />
+  <meta property="og:site_name" content="Feed Me Chutney" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card (X/Twitter) -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Feed Me Chutney | Farm Fresh Handcrafted Chutney" />
+  <meta name="twitter:description" content="Family-made Afghan-inspired chutney. Fresh. Natural. No preservatives. Try our NEW Strawberry Jalapeño!" />
+  <meta name="twitter:image" content="https://i0.wp.com/www.feedmechutney.com/wp-content/uploads/2023/02/Jar-CHUTNEY-2tagged-copy.jpg?resize=1200%2C600&ssl=1" />
+  <meta name="twitter:site" content="@feedmechutney" />
+
+  <!-- Structured Data (JSON-LD) - FoodEstablishment + Product -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FoodEstablishment",
+    "name": "Feed Me Chutney",
+    "url": "https://www.feedmechutney.com",
+    "image": "https://i0.wp.com/www.feedmechutney.com/wp-content/uploads/2023/02/Jar-CHUTNEY-2tagged-copy.jpg",
+    "description": "Farm-fresh handcrafted chutney made to order in Virginia's Northern Neck. Afghan-inspired recipes, no preservatives, family-owned.",
+    "servesCuisine": "Afghan-inspired chutney, American fusion",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Northern Neck",
+      "addressRegion": "VA",
+      "addressCountry": "US"
+    },
+    "sameAs": [
+      "https://www.facebook.com/share/1Da3hYZiZs/",
+      "https://www.instagram.com/feedmechutney/",
+      "https://www.youtube.com/@feedmechutney",
+      "https://www.tiktok.com/@feedmechutney"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Authentic Afghan Green Chutney",
+    "image": "https://i0.wp.com/www.feedmechutney.com/wp-content/uploads/2023/02/Jar-CHUTNEY-2tagged-copy.jpg",
+    "description": "Fresh cilantro, parsley, jalapeño, and garlic – blended to perfection. No preservatives, made to order.",
+    "brand": {
+      "@type": "Brand",
+      "name": "Feed Me Chutney"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "9.99",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+  </script>
+
+  <!-- Fonts & Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500;600&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    /* ================= ORIGINAL STYLES (COMPLETELY UNCHANGED) ================= */
+    :root {
+      --green: #2d6a2f;
+      --green-light: #4a9c4d;
+      --green-pale: #e8f5e9;
+      --gold: #c9952a;
+      --gold-light: #f0c85a;
+      --cream: #faf6ee;
+      --dark: #1a1a1a;
+      --text: #3a3a3a;
+      --red: #b83232;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--cream);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* ----- NAVIGATION (fixed) ----- */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 6%;
+      background: rgba(26,26,26,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(201,149,42,0.3);
+    }
+
+    .nav-logo { display: flex; align-items: center; gap: 10px; }
+    .nav-logo-text {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      color: #fff;
+      line-height: 1.2;
+    }
+    .nav-logo-text span {
+      display: block;
+      font-size: 0.65rem;
+      color: var(--gold-light);
+      font-family: 'DM Sans', sans-serif;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 28px;
+    }
+    .nav-links a {
+      color: #ccc;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      transition: color 0.3s;
+    }
+    .nav-links a:hover { color: var(--gold-light); }
+    .nav-cta {
+      background: var(--gold);
+      color: #fff !important;
+      padding: 9px 22px;
+      border-radius: 50px;
+      font-weight: 600 !important;
+      transition: background 0.3s !important;
+    }
+    .nav-cta:hover { background: var(--gold-light) !important; color: var(--dark) !important; }
+
+    /* ----- HERO ----- */
+    .hero {
+      min-height: 100vh;
+      background: #0e1a0e;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      padding: 0 6%;
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 60% 80% at 70% 50%, rgba(45,106,47,0.35) 0%, transparent 70%),
+                  radial-gradient(ellipse 40% 60% at 20% 80%, rgba(201,149,42,0.15) 0%, transparent 60%);
+    }
+    .hero-grain {
+      position: absolute;
+      inset: 0;
+      opacity: 0.04;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+      background-size: 200px;
+      pointer-events: none;
+    }
+    .hero-inner {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+      max-width: 1200px;
+      width: 100%;
+      padding-top: 80px;
+      padding-bottom: 140px;
+    }
+    .hero-eyebrow {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      margin-bottom: 18px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .hero-eyebrow::before {
+      content: '';
+      display: block;
+      width: 30px;
+      height: 2px;
+      background: var(--gold);
+    }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(3rem, 5.5vw, 5.5rem);
+      font-weight: 900;
+      color: #fff;
+      line-height: 1.05;
+      margin-bottom: 24px;
+    }
+    .hero h1 em { font-style: italic; color: var(--gold-light); }
+    .hero-desc {
+      color: #b0b8a8;
+      font-size: 1.05rem;
+      line-height: 1.7;
+      margin-bottom: 36px;
+      max-width: 480px;
+    }
+    .hero-btns { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 20px; }
+    .btn-primary {
+      padding: 15px 36px;
+      background: var(--green);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: 0.3s;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 8px 30px rgba(45,106,47,0.4);
+    }
+    .btn-primary:hover { background: var(--green-light); transform: translateY(-2px); box-shadow: 0 14px 40px rgba(45,106,47,0.5); }
+    .btn-outline {
+      padding: 15px 36px;
+      border: 1.5px solid rgba(255,255,255,0.25);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: 500;
+      font-size: 0.95rem;
+      transition: 0.3s;
+    }
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold-light); }
+    .hero-image-wrap {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .hero-image-glow {
+      position: absolute;
+      width: 420px;
+      height: 420px;
+      background: radial-gradient(circle, rgba(45,106,47,0.4) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .hero-image-wrap img {
+      width: 100%;
+      max-width: 580px;
+      border-radius: 20px;
+      box-shadow: 0 30px 80px rgba(0,0,0,0.5);
+      position: relative;
+      z-index: 1;
+      animation: floatImg 6s ease-in-out infinite;
+      object-fit: cover;
+    }
+    @keyframes floatImg { 0%,100%{transform:translateY(0);} 50%{transform:translateY(-12px);} }
+    .hero-badge {
+      position: absolute;
+      bottom: -20px;
+      right: -10px;
+      background: var(--gold);
+      color: #fff;
+      border-radius: 50%;
+      width: 110px;
+      height: 110px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-align: center;
+      line-height: 1.3;
+      z-index: 2;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+      animation: spin-slow 20s linear infinite;
+    }
+    @keyframes spin-slow { from{transform:rotate(0deg);} to{transform:rotate(360deg);} }
+    
+    .hero-stats {
+      position: absolute;
+      bottom: 40px;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      gap: 65px;
+      flex-wrap: wrap;
+      background: rgba(0,0,0,0.6);
+      backdrop-filter: blur(8px);
+      padding: 16px 28px;
+      border-radius: 70px;
+      width: fit-content;
+      margin: 0 auto;
+      border: 1px solid rgba(255,215,0,0.2);
+      z-index: 10;
+    }
+    .stat { text-align: center; padding: 0 12px; }
+    .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 2rem; color: var(--gold-light); line-height: 1; letter-spacing: 1px; }
+    .stat-label { font-size: 0.7rem; color: #e0e0e0; letter-spacing: 1.5px; text-transform: uppercase; margin-top: 5px; font-weight: 500; }
+
+    /* Trust bar */
+    .trust-bar {
+      background: var(--green);
+      padding: 16px 6%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+      flex-wrap: wrap;
+    }
+    .trust-item { display: flex; align-items: center; gap: 8px; color: rgba(255,255,255,0.9); font-size: 0.82rem; font-weight: 500; }
+    .trust-item i { color: var(--gold-light); }
+
+    /* Shared sections */
+    .section-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--green);
+      margin-bottom: 12px;
+    }
+    .section-tag::before {
+      content: '';
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--green);
+    }
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.2rem, 4vw, 3.5rem);
+      font-weight: 900;
+      line-height: 1.1;
+      color: var(--dark);
+      margin-bottom: 16px;
+    }
+    .section-sub { color: #777; font-size: 1rem; line-height: 1.7; max-width: 560px; }
+
+    /* Story */
+    .story {
+      padding: 100px 6%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+    .story-img-stack { position: relative; }
+    .story-img-main { width: 100%; border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.12); }
+    .story-img-accent {
+      position: absolute;
+      bottom: -30px;
+      right: -30px;
+      width: 55%;
+      border-radius: 16px;
+      border: 6px solid var(--cream);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+    }
+    .story-quote {
+      margin-top: 30px;
+      padding: 24px;
+      background: var(--green);
+      border-radius: 16px;
+      color: #fff;
+    }
+    .story-quote p { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.05rem; line-height: 1.7; margin-bottom: 12px; }
+    .story-quote cite { font-size: 0.8rem; color: var(--gold-light); letter-spacing: 1px; }
+    .press-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--green-pale);
+      border: 1px solid var(--green);
+      color: var(--green);
+      padding: 8px 16px;
+      border-radius: 50px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-top: 10px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .press-chip:hover { background: var(--green); color: #fff; }
+
+    /* Products */
+    .products {
+      padding: 100px 6%;
+      background: var(--dark);
+    }
+    .products-header { text-align: center; margin-bottom: 60px; }
+    .products-header .section-tag { justify-content: center; }
+    .products-header .section-tag::before { display: none; }
+    .products-header .section-title { color: #fff; }
+    .products-header .section-sub { color: #999; margin: 0 auto; }
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 28px;
+      max-width: 1300px;
+      margin: 0 auto 50px;
+    }
+    .product-card {
+      background: #1e1e1e;
+      border-radius: 20px;
+      overflow: hidden;
+      transition: transform 0.4s, box-shadow 0.4s;
+      border: 1px solid rgba(255,255,255,0.05);
+    }
+    .product-card:hover { transform: translateY(-8px); box-shadow: 0 20px 60px rgba(45,106,47,0.3); border-color: rgba(74,156,77,0.4); }
+    .product-card-img { width: 100%; height: 220px; object-fit: cover; }
+    .product-card-body { padding: 24px; }
+    .product-card-badge {
+      display: inline-block;
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 50px;
+      margin-bottom: 10px;
+    }
+    .badge-green { background: rgba(45,106,47,0.3); color: var(--green-light); }
+    .badge-gold { background: rgba(201,149,42,0.3); color: var(--gold-light); }
+    .badge-red { background: rgba(184,50,50,0.3); color: #e07070; }
+    .badge-seasonal { background: rgba(140,90,40,0.3); color: #d4a060; }
+    .product-card h3 { font-family: 'Playfair Display', serif; font-size: 1.25rem; font-weight: 700; color: #fff; margin-bottom: 8px; }
+    .product-card p { font-size: 0.88rem; color: #888; line-height: 1.6; margin-bottom: 18px; }
+    .product-card-footer { display: flex; align-items: center; justify-content: space-between; }
+    .product-price { font-size: 1.3rem; font-weight: 700; color: var(--gold-light); font-family: 'Playfair Display', serif; }
+    .btn-shop { padding: 9px 20px; background: var(--green); color: #fff; text-decoration: none; border-radius: 50px; font-size: 0.8rem; font-weight: 600; transition: 0.3s; }
+    .btn-shop:hover { background: var(--green-light); }
+
+    /* Videos */
+    .videos { padding: 100px 6%; }
+    .videos-header { text-align: center; margin-bottom: 50px; }
+    .videos-header .section-tag { justify-content: center; }
+    .videos-header .section-tag::before { display: none; }
+    .video-featured { max-width: 860px; margin: 0 auto 50px; }
+    .video-featured iframe { width: 100%; height: 480px; border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.15); border: none; }
+    .videos-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 22px;
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+    .video-thumb { border-radius: 16px; overflow: hidden; background: #000; transition: transform 0.2s; cursor: pointer; }
+    .video-thumb iframe { width: 100%; height: 200px; border: none; display: block; pointer-events: auto; }
+    .video-label { padding: 14px 16px; background: var(--dark); color: #ccc; font-size: 0.83rem; border-radius: 0 0 16px 16px; }
+
+    /* Features */
+    .features {
+      padding: 100px 6%;
+      background: var(--green);
+      position: relative;
+      overflow: hidden;
+    }
+    .features::before {
+      content: 'FEED ME';
+      position: absolute;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 22vw;
+      color: rgba(255,255,255,0.04);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      white-space: nowrap;
+      pointer-events: none;
+    }
+    .features-inner {
+      position: relative;
+      max-width: 1300px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+    .features-content .section-tag { color: var(--gold-light); }
+    .features-content .section-tag::before { background: var(--gold-light); }
+    .features-content .section-title { color: #fff; }
+    .feature-list { list-style: none; margin-top: 30px; display: flex; flex-direction: column; gap: 20px; }
+    .feature-item { display: flex; gap: 16px; align-items: flex-start; }
+    .feature-icon {
+      width: 48px;
+      height: 48px;
+      min-width: 48px;
+      background: rgba(255,255,255,0.12);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gold-light);
+      font-size: 1.1rem;
+    }
+    .feature-item h4 { color: #fff; font-weight: 600; margin-bottom: 4px; }
+    .feature-item p { color: rgba(255,255,255,0.65); font-size: 0.88rem; line-height: 1.6; }
+    .features-img { width: 100%; border-radius: 20px; box-shadow: 0 30px 80px rgba(0,0,0,0.3); }
+
+    /* Press */
+    .press {
+      padding: 80px 6%;
+      background: var(--cream);
+      text-align: center;
+    }
+    .press h3 { font-family: 'DM Sans', sans-serif; font-size: 0.75rem; letter-spacing: 3px; text-transform: uppercase; color: #999; margin-bottom: 30px; }
+    .press-logos { display: flex; align-items: center; justify-content: center; gap: 40px; flex-wrap: wrap; }
+    .press-logo-item { display: flex; flex-direction: column; align-items: center; gap: 6px; text-decoration: none; }
+    .press-logo-box {
+      padding: 16px 28px;
+      background: #fff;
+      border: 1px solid #e0e0e0;
+      border-radius: 12px;
+      color: var(--green);
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      font-weight: 700;
+      transition: 0.3s;
+    }
+    .press-logo-box:hover { border-color: var(--green); box-shadow: 0 6px 20px rgba(45,106,47,0.15); }
+    .press-logo-sub { font-size: 0.7rem; color: #aaa; letter-spacing: 1px; }
+
+    /* Social */
+    .social-feed { padding: 100px 6%; background: #fff; }
+    .social-feed-header { text-align: center; margin-bottom: 50px; }
+    .social-feed-header .section-tag { justify-content: center; }
+    .social-feed-header .section-tag::before { display: none; }
+    .social-links-row { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 30px; }
+    .social-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 28px;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .social-fb { background: #1877f2; color: #fff; }
+    .social-fb:hover { background: #0d65d9; }
+    .social-ig { background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); color: #fff; }
+    .social-ig:hover { opacity: 0.88; }
+    .social-yt { background: #ff0000; color: #fff; }
+    .social-yt:hover { background: #cc0000; }
+    .social-web { background: var(--green); color: #fff; }
+    .social-web:hover { background: var(--green-light); }
+
+    /* CTA */
+    .cta-strip {
+      padding: 90px 6%;
+      background: var(--dark);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .cta-strip::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 70% 80% at 50% 50%, rgba(45,106,47,0.2) 0%, transparent 70%);
+    }
+    .cta-strip-inner { position: relative; }
+    .cta-strip h2 { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3.5rem); color: #fff; margin-bottom: 16px; }
+    .cta-strip h2 em { color: var(--gold-light); font-style: italic; }
+    .cta-strip p { color: #999; margin-bottom: 36px; font-size: 1rem; }
+    .cta-strip-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+
+    /* Footer */
+    footer { background: #0a0a0a; padding: 60px 6% 30px; color: #666; }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 50px;
+      margin-bottom: 50px;
+    }
+    .footer-brand p { font-size: 0.88rem; line-height: 1.7; color: #555; margin: 16px 0; }
+    .footer-brand-logo { font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 900; color: var(--green-light); }
+    .footer-col h4 { font-size: 0.8rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #888; margin-bottom: 20px; }
+    .footer-col a { display: block; text-decoration: none; color: #555; font-size: 0.88rem; margin-bottom: 10px; transition: color 0.3s; }
+    .footer-col a:hover { color: var(--green-light); }
+    .footer-social { display: flex; gap: 12px; margin-top: 16px; }
+    .footer-social a {
+      width: 38px; height: 38px; border-radius: 50%;
+      background: #1a1a1a;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #666;
+      font-size: 0.9rem;
+      transition: 0.3s;
+      text-decoration: none;
+    }
+    .footer-social a:hover { background: var(--green); color: #fff; }
+    .footer-bottom {
+      border-top: 1px solid #1a1a1a;
+      padding-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.78rem;
+      color: #444;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    /* Animations */
+    .fade-up { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .fade-up.visible { opacity: 1; transform: translateY(0); }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .hero-inner { grid-template-columns: 1fr; text-align: center; padding-bottom: 180px; }
+      .hero-image-wrap { display: none; }
+      .story { grid-template-columns: 1fr; }
+      .features-inner { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .nav-links { display: none; }
+      .hero-stats { gap: 30px; padding: 12px 24px; bottom: 20px; width: 90%; }
+      .stat-num { font-size: 1.6rem; }
+    }
+    @media (max-width: 600px) {
+      .footer-grid { grid-template-columns: 1fr; }
+      .video-featured iframe { height: 260px; }
+      .hero-stats { gap: 18px; flex-wrap: wrap; }
+      .stat { padding: 0 6px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ================= ORIGINAL NAVIGATION (UNCHANGED) ================= -->
+<nav>
+  <div class="nav-logo"><div class="nav-logo-text">Feed Me Chutney<span>Fresh · Natural · Homemade</span></div></div>
+  <ul class="nav-links">
+    <li><a href="#story">Our Story</a></li><li><a href="#products">Shop</a></li><li><a href="#videos">Videos</a></li><li><a href="#social">Connect</a></li>
+    <li><a href="https://www.feedmechutney.com" target="_blank" class="nav-cta">Order Now</a></li>
+  </ul>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="hero-bg"></div><div class="hero-grain"></div>
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="hero-eyebrow">Farm Fresh · Northern Neck, Virginia</div>
+      <h1>Handcrafted Chutney<br>Made with <em>Love.</em></h1>
+      <p class="hero-desc">Born from an Afghan family tradition and raised in Virginia's Northern Neck. Every jar is made fresh to order — no preservatives, no shortcuts, no compromise.</p>
+      <div class="hero-btns">
+        <a href="https://www.feedmechutney.com" target="_blank" class="btn-primary"><i class="fas fa-shopping-bag"></i> Shop Now</a>
+        <a href="#story" class="btn-outline">Our Story</a>
+      </div>
+    </div>
+    <div class="hero-image-wrap">
+      <div class="hero-image-glow"></div>
+      <img src="https://i0.wp.com/www.feedmechutney.com/wp-content/uploads/2023/02/20230122_151917-scaled.jpg?fit=750%2C422&ssl=1" alt="Fresh chutney jars" onerror="this.src='https://i0.wp.com/www.feedmechutney.com/wp-content/uploads/2023/02/Jar-CHUTNEY-2tagged-copy.jpg?resize=600%2C600&ssl=1'">
+      <div class="hero-badge">100%<br>Made<br>to Order</div>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-num">100+</div><div class="stat-label">Jars Per Week</div></div>
+    <div class="stat"><div class="stat-num">6+</div><div class="stat-label">Flavors</div></div>
+    <div class="stat"><div class="stat-num">0</div><div class="stat-label">Preservatives</div></div>
+  </div>
+</section>
+
+<div class="trust-bar">
+  <div class="trust-item"><i class="fas fa-leaf"></i> Non-GMO</div>
+  <div class="trust-item"><i class="fas fa-seedling"></i> Locally Sourced</div>
+  <div class="trust-item"><i class="fas fa-ban"></i> No Preservatives</div>
+  <div class="trust-item"><i class="fas fa-check-circle"></i> Gluten Free</div>
+  <div class="trust-item"><i class="fas fa-heart"></i> Vegan</div>
+  <div class="trust-item"><i class="fas fa-star"></i> Premium Artisan Quality</div>
+  <div class="trust-item"><i class="fas fa-truck"></i> Free Shipping Over $69</div>
+</div>
+
+<!-- STORY SECTION -->
+<section class="story" id="story">
+  <div class="story-img-stack fade-up">
+    <img class="story-img-main" src="https://www.localscoopmagazine.com/downloads/4646/download/25-FallHol-FeedMEChutney-2.jpg?cb=3e2cef5cadf37e1ae24dacb8b802f3ca" alt="Feed Me Chutney Family" onerror="this.src='https://i0.wp.com/www.feedmechutney.com/wp-content/uploads/2024/09/IMG_6358.jpg?resize=600%2C600&ssl=1'">
+    <img class="story-img-accent" src="https://www.localscoopmagazine.com/downloads/4647/download/25-FallHol-FeedMEChutney-6.jpg?cb=f868c3cf21ba0e6b5f858609280c18e3" alt="Stephanie Rostamie" onerror="this.src='https://i0.wp.com/www.feedmechutney.com/wp-content/uploads/2023/02/Jar-CHUTNEY-2tagged-copy.jpg?resize=300%2C300&ssl=1'">
+    <div class="story-quote"><p>"Chutney goes on everything — eggs, chips, hotdogs instead of relish. The kids don't want meals without it."</p><cite>— Stephanie Rostamie, Founder</cite></div>
+  </div>
+  <div class="story-content fade-up">
+    <div class="section-tag">Our Story</div>
+    <h2 class="section-title">A Family Affair,<br>Rooted in Tradition</h2>
+    <p>Stephanie Rostamie never planned to become a chutney maker. Inspired by summers in her grandparents' gardens in the Middle East — where life revolved around family, fresh food, and community — she wanted to recreate that simplicity in Virginia's Northern Neck.</p>
+    <p>The idea sparked at a housewarming party, where her Afghan-style green chutney stole the show. Her children suggested they make and sell it together — as part of their homeschooling curriculum and as a true family business. FeedME Chutney was born.</p>
+    <p>Today, Stephanie and her six children (ages 2–14) craft over 100 jars a week using locally sourced, farm-fresh ingredients. Every jar is made to order — because freshness is never negotiable.</p>
+    <a href="https://www.localscoopmagazine.com/stories/feed-me-chutney" target="_blank" class="press-chip"><i class="fas fa-newspaper"></i> Read the Full Story — The Local Scoop Magazine</a>
+  </div>
+</section>
+
+<!-- PRODUCTS SECTION - UPDATED: Cinnamon Fig Chutney REPLACED with Strawberry Jalapeño Chutney (as requested) -->
+<section class="products" id="products">
+  <div class="products-header fade-up"><div class="section-tag">The Collection</div><h2 class="section-title">Our Handcrafted Flavors</h2><p class="section-sub">Every jar made fresh to order. Pure ingredients, bold flavors, no shortcuts.</p></div>
+  <div class="products-grid">
+    <div class="product-card fade-up"><img class="product-card-img" src="https://i0.wp.com/www.feedmechutney.com/wp-content/uploads/2023/02/Jar-CHUTNEY-2tagged-copy.jpg?resize=400%2C400&ssl=1" alt="Mild Green Afghan Chutney"><div class="product-card-body"><span class="product-card-badge badge-green">Bestseller</span><h3>Authentic Afghan Green Chutney</h3><p>Parsley, cilantro, jalapeño, garlic — fresh herbs blended to perfection.</p><div class="product-card-footer"><span class="product-price">$9.99</span><a href="https://www.feedmechutney.com/product/organic-green-chutney-mild/" target="_blank" class="btn-shop">Shop Mild</a></div></div></div>
+    <div class="product-card fade-up"><img class="product-card-img" src="https://i0.wp.com/www.feedmechutney.com/wp-content/uploads/2023/02/SPICY-Jar-CHUTNEY-2tagged-1-1-scaled.jpg?resize=400%2C400&ssl=1" alt="Spicy Green"><div class="product-card-body"><span class="product-card-badge badge-red">Spicy 🌶️</span><h3>Afghan Green Chutney — Spicy</h3><p>All the freshness with a bold kick of heat.</p><div class="product-card-footer"><span class="product-price">$9.99</span><a href="https://www.feedmechutney.com/product/organic-green-chutney-spicy/" target="_blank" class="btn-shop">Shop Spicy</a></div></div></div>
+    <div class="product-card fade-up"><img class="product-card-img" src="https://i0.wp.com/www.feedmechutney.com/wp-content/uploads/2024/07/FMC-PINEAPPLE-JAR-UP-DATE-24-scaled.jpg?resize=400%2C400&ssl=1" alt="Pineapple Jalapeño"><div class="product-card-body"><span class="product-card-badge badge-gold">Tropical ✨</span><h3>Pineapple & Jalapeño Chutney</h3><p>Bright tropical sweetness meets a touch of heat.</p><div class="product-card-footer"><span class="product-price">$12.99</span><a href="https://www.feedmechutney.com/product/organic-costa-rican-pineapple-chutney-mild/" target="_blank" class="btn-shop">Shop Now</a></div></div></div>
+    <!-- REPLACED: Cinnamon Fig Chutney (out of stock) with NEW Strawberry Jalapeño Chutney -->
+    <div class="product-card fade-up"><img class="product-card-img" src="https://i0.wp.com/www.feedmechutney.com/wp-content/uploads/2023/02/Jar-CHUTNEY-2tagged-copy.jpg?resize=400%2C400&ssl=1" alt="Strawberry Jalapeño Chutney"><div class="product-card-body"><span class="product-card-badge badge-red">NEW! Sweet Heat 🍓</span><h3>Strawberry Jalapeño Chutney</h3><p>Sweet summer strawberries meet a bold jalapeño kick. Farm-fresh & addictive.</p><div class="product-card-footer"><span class="product-price">$12.99</span><a href="https://share.google/GXnha4g5oBCDAleRs" target="_blank" class="btn-shop">Shop Now</a></div></div></div>
+    <div class="product-card fade-up"><img class="product-card-img" src="https://i0.wp.com/www.feedmechutney.com/wp-content/uploads/2023/11/FMC-3-Jars-Deal-Pic-11-23-scaled.jpg?resize=400%2C400&ssl=1" alt="Sampler 6-Pack"><div class="product-card-body"><span class="product-card-badge badge-gold">Best Value</span><h3>Seasonal Sampler: 6-Pack Trio</h3><p>Try three flavors, two jars each.</p><div class="product-card-footer"><span class="product-price">$66.99</span><a href="https://www.feedmechutney.com/product/seasonal-chutney-sampler-a-trio-of-flavors-6-chutney-pack-free-shipping/" target="_blank" class="btn-shop">Shop Bundle</a></div></div></div>
+    <div class="product-card fade-up"><img class="product-card-img" src="https://i0.wp.com/www.feedmechutney.com/wp-content/uploads/2024/09/IMG_6358.jpg?resize=400%2C400&ssl=1" alt="15-Pack Bundle"><div class="product-card-body"><span class="product-card-badge badge-green">Ultimate · Free Shipping</span><h3>Ultimate Chutney Bundle: 15-Pack</h3><p>Stock up on all your favorites.</p><div class="product-card-footer"><span class="product-price">$157.99</span><a href="https://www.feedmechutney.com/product/ultimate-chutney-bundle-15-chutney-pack-free-shipping/" target="_blank" class="btn-shop">Shop Bundle</a></div></div></div>
+  </div>
+  <div class="products-cta fade-up"><a href="https://www.feedmechutney.com" target="_blank" class="btn-primary"><i class="fas fa-store"></i> View Full Shop</a></div>
+</section>
+
+<!-- FEATURES SECTION -->
+<section class="features">
+  <div class="features-inner"><div class="features-content fade-up"><div class="section-tag">Why Feed Me Chutney</div><h2 class="section-title" style="color:#fff;">What Makes Us<br>Different.</h2><ul class="feature-list"><li class="feature-item"><div class="feature-icon"><i class="fas fa-clock"></i></div><div><h4>Made Fresh to Order</h4><p>Never pre-made — crafted from scratch when you order.</p></div></li><li class="feature-item"><div class="feature-icon"><i class="fas fa-map-marker-alt"></i></div><div><h4>Locally Sourced in Northern Neck, VA</h4><p>Supporting local farmers for peak freshness.</p></div></li><li class="feature-item"><div class="feature-icon"><i class="fas fa-users"></i></div><div><h4>A True Family Business</h4><p>Six kids, one mother, and a shared love of food.</p></div></li><li class="feature-item"><div class="feature-icon"><i class="fas fa-globe"></i></div><div><h4>Ships Across the Continental U.S.</h4><p>Free shipping on orders over $69.</p></div></li></ul></div><div class="fade-up"><img class="features-img" src="https://i0.wp.com/www.feedmechutney.com/wp-content/uploads/2023/02/20230122_151917-scaled.jpg?fit=750%2C422&ssl=1" alt="Making process" onerror="this.src='https://i0.wp.com/www.feedmechutney.com/wp-content/uploads/2024/09/IMG_6358.jpg?resize=600%2C600&ssl=1'"></div></div>
+</section>
+
+<!-- VIDEOS SECTION -->
+<section class="videos" id="videos">
+  <div class="videos-header fade-up"><div class="section-tag">Watch & Cook</div><h2 class="section-title">See Chutney in Action</h2><p class="section-sub">Recipes, pairings, and behind-the-scenes moments.</p></div>
+  <div class="video-featured fade-up"><iframe src="https://www.youtube.com/embed/epzrxy0ESmQ" title="Feed Me Chutney Featured Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  <div class="videos-grid"><div class="video-thumb fade-up"><iframe src="https://www.youtube.com/embed/mv3xl5fZzH8" allowfullscreen></iframe><div class="video-label">🥗 Recipe Inspiration</div></div><div class="video-thumb fade-up"><iframe src="https://www.youtube.com/embed/pgRAz3pRYYY" allowfullscreen></iframe><div class="video-label">🍗 Chicken & Chutney</div></div><div class="video-thumb fade-up"><iframe src="https://www.youtube.com/embed/1yS8W4pMq-0" allowfullscreen></iframe><div class="video-label">🌮 Taco Night</div></div><div class="video-thumb fade-up"><iframe src="https://www.youtube.com/embed/M2ALynp9Too" allowfullscreen></iframe><div class="video-label">🥬 Fresh & Natural</div></div><div class="video-thumb fade-up"><iframe src="https://www.youtube.com/embed/UNFfwTFB4Ss" allowfullscreen></iframe><div class="video-label">🫙 Behind the Jar</div></div><div class="video-thumb fade-up"><iframe src="https://www.youtube.com/embed/o_04bu4BOPc" allowfullscreen></iframe><div class="video-label">🍳 Breakfast with Chutney</div></div><div class="video-thumb fade-up"><iframe src="https://www.youtube.com/embed/nV4bgdWa7yM" allowfullscreen></iframe><div class="video-label">🌶️ Spicy Edition</div></div><div class="video-thumb fade-up"><iframe src="https://www.youtube.com/embed/BIrtM7Mxyyg" allowfullscreen></iframe><div class="video-label">🍍 Pineapple Chutney</div></div></div>
+</section>
+
+<!-- PRESS SECTION -->
+<section class="press"><h3>As Seen In</h3><div class="press-logos"><a href="https://www.localscoopmagazine.com/stories/feed-me-chutney" target="_blank" class="press-logo-item"><div class="press-logo-box">The Local Scoop</div><div class="press-logo-sub">Magazine Feature</div></a><a href="https://www.facebook.com/share/1Da3hYZiZs/" target="_blank" class="press-logo-item"><div class="press-logo-box"><i class="fab fa-facebook" style="color:#1877f2"></i> Facebook</div><div class="press-logo-sub">Follow & Shop</div></a><a href="https://www.instagram.com/feedmechutney/" target="_blank" class="press-logo-item"><div class="press-logo-box"><i class="fab fa-instagram" style="color:#e1306c"></i> Instagram</div><div class="press-logo-sub">@feedmechutney</div></a><a href="https://www.youtube.com/@feedmechutney" target="_blank" class="press-logo-item"><div class="press-logo-box"><i class="fab fa-youtube" style="color:#ff0000"></i> YouTube</div><div class="press-logo-sub">Recipe Videos</div></a></div></section>
+
+<!-- SOCIAL FEED SECTION -->
+<section class="social-feed" id="social"><div class="social-feed-header fade-up"><div class="section-tag">Stay Connected</div><h2 class="section-title">Join the Feed Me Community</h2><p class="section-sub">Follow us for recipes, behind-the-scenes moments, new flavors, and farm-fresh inspiration.</p></div><div class="social-links-row fade-up"><a href="https://www.facebook.com/share/1Da3hYZiZs/" target="_blank" class="social-btn social-fb"><i class="fab fa-facebook-f"></i> Facebook</a><a href="https://www.instagram.com/feedmechutney/" target="_blank" class="social-btn social-ig"><i class="fab fa-instagram"></i> @feedmechutney</a><a href="https://www.youtube.com/@feedmechutney" target="_blank" class="social-btn social-yt"><i class="fab fa-youtube"></i> YouTube</a><a href="https://www.feedmechutney.com" target="_blank" class="social-btn social-web"><i class="fas fa-globe"></i> Shop Online</a></div></section>
+
+<!-- CTA STRIP -->
+<section class="cta-strip"><div class="cta-strip-inner fade-up"><h2>Ready to <em>Taste the Difference?</em></h2><p>Order fresh. Made for you. Shipped across the USA.</p><div class="cta-strip-btns"><a href="https://www.feedmechutney.com" target="_blank" class="btn-primary"><i class="fas fa-shopping-cart"></i> Order Fresh Now</a><a href="mailto:Sales@FeedMeChutney.com" class="btn-outline"><i class="fas fa-envelope"></i> Wholesale Inquiries</a></div></div></section>
+
+<!-- FOOTER -->
+<footer><div class="footer-grid"><div class="footer-brand"><div class="footer-brand-logo">Feed Me Chutney</div><p>Farm fresh, locally sourced, handcrafted chutney from Virginia's Northern Neck. A family business built with love.</p><div class="footer-social"><a href="https://www.facebook.com/share/1Da3hYZiZs/" target="_blank"><i class="fab fa-facebook-f"></i></a><a href="https://www.instagram.com/feedmechutney/" target="_blank"><i class="fab fa-instagram"></i></a><a href="https://www.youtube.com/@feedmechutney" target="_blank"><i class="fab fa-youtube"></i></a></div></div><div class="footer-col"><h4>Shop</h4><a href="https://www.feedmechutney.com/product/organic-green-chutney-mild/" target="_blank">Green Chutney Mild</a><a href="https://www.feedmechutney.com/product/organic-green-chutney-spicy/" target="_blank">Green Chutney Spicy</a><a href="https://www.feedmechutney.com/product/organic-costa-rican-pineapple-chutney-mild/" target="_blank">Pineapple Jalapeño</a><a href="https://share.google/GXnha4g5oBCDAleRs" target="_blank">Strawberry Jalapeño</a><a href="https://www.feedmechutney.com/product/seasonal-chutney-sampler-a-trio-of-flavors-6-chutney-pack-free-shipping/" target="_blank">6-Pack Sampler</a><a href="https://www.feedmechutney.com/product/ultimate-chutney-bundle-15-chutney-pack-free-shipping/" target="_blank">15-Pack Bundle</a></div><div class="footer-col"><h4>Explore</h4><a href="https://www.feedmechutney.com/sample-page/" target="_blank">About Us</a><a href="https://www.feedmechutney.com/recipes/" target="_blank">Recipes</a><a href="https://www.feedmechutney.com/chutney-breakfast-of-champions/" target="_blank">Blog</a><a href="https://www.localscoopmagazine.com/stories/feed-me-chutney" target="_blank">Press</a></div><div class="footer-col"><h4>Contact</h4><a href="mailto:Sales@FeedMeChutney.com">Sales@FeedMeChutney.com</a><a href="https://www.feedmechutney.com/contact/" target="_blank">Contact Form</a><a href="https://www.feedmechutney.com/privacy-policy/" target="_blank">Privacy Policy</a><a href="https://www.feedmechutney.com" target="_blank">feedmechutney.com</a></div></div><div class="footer-bottom"><span>© 2026 Feed Me Chutney. All rights reserved.</span><span>Northern Neck, Virginia · Made Fresh to Order · Ships USA-wide</span></div></footer>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => { if(entry.isIntersecting){ entry.target.classList.add('visible'); observer.unobserve(entry.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+  const navLinks = document.querySelectorAll('.nav-links a');
+  window.addEventListener('scroll', () => {
+    const scrollPos = window.scrollY + 100;
+    document.querySelectorAll('section[id]').forEach(section => {
+      if(scrollPos >= section.offsetTop && scrollPos < section.offsetTop + section.offsetHeight) {
+        navLinks.forEach(a => { a.style.color = a.getAttribute('href') === '#'+section.id ? 'var(--gold-light)' : '#ccc'; });
+      }
+    });
+  });
+</script>
+</body>
+  </html>
